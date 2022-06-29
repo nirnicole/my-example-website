@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  
+  .header {
+    padding: 0 45px;
+    background-color: #283593;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+.photos img{
+    width: 100%;
+}
+.photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:20px;
+}
