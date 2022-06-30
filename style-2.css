@@ -13,7 +13,7 @@ body {
     flex-wrap: wrap;
   }
   
-  
+
 .photos img{
     width: 100%;
     border-radius: 10px;
@@ -76,4 +76,12 @@ body {
   right: 0;
   background-color: #aed581;
   height: 80px;
+}
+
+.control-options {
+  padding: 45px 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
