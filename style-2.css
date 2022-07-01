@@ -5,8 +5,7 @@ body {
   
   .header {
     padding: 0 45px;
-    background-color: #283593;
-    color: white;
+    background: linear-gradient(180deg, rgba(0, 98, 214, 0.8) 0%, rgba(0, 98, 214, 0.717757) 0%, rgba(0, 98, 214, 0) 100%), linear-gradient(180deg, #00FFFF 0%, rgba(0, 255, 255, 0.658879) 47.66%, rgba(0, 255, 255, 0) 100%), rgba(0, 98, 214, 0.8);    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
