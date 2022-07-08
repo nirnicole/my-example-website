@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mathGameStyles.css">
+    <title>Math Game</title>
+</head>
+<body>
+    <div class="main-ui">
+        <p class="problem"></p>
+
+        <form action="" class="our-form">
+            <input type="text" class="our-field" autocomplete="off">
+            <button>Submit</button>
+        </form>
+        <p class="status">You need <span class="points-needed">10</span> more points to win the game!</p>
+        <p class="status">Make <span class="mistakes-allowed">2</span> more mistakes, and you'll lose...</p>
+        
+        <div class="progress">
+            <div class="boxes">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <div class="progress-inner"></div>
+        </div>
+    </div>
+
+<div class="overlay">
+    <div class="overlay-inner">
+        <p class="end-msg"></p>
+        <button class="reset-btn">Start over</button>
+    </div>
+</div>
+
+    <script src="mathGameMain.js"></script>
+</body>
+</html>
